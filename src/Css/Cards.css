@@ -1,0 +1,75 @@
+.cards{
+    margin-top: 30px;
+}
+.circle{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.i{
+    overflow: hidden;
+}
+.j{
+    transition: all 1.1s;
+}
+.i img{
+    border-radius: 50%;
+    /* transition: transform .4s; */
+}
+.i:hover .j{
+    transform: scale(1.2);
+    transition: 0.4s;
+    /* transform-origin: 50% 50%; */
+}
+.head{
+    text-align: center;
+    color: rgb(142, 7, 7);
+    font-size: 20px;
+    margin-top: 14px;
+}
+.one
+{
+    background-image: url(https://handmadechoice.com/wp-content/uploads/2022/06/Handmade-embroidery-creative-ideas.jpeg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+}
+.two{
+    background-image: url(https://www.gitagged.com/wp-content/uploads/2018/07/Wooden-Art-Gi-Tagged-1.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+}
+.three{
+    background-image: url(https://www.zwende.com/cdn/shop/products/pdp-Square_frame_bagh_weaving_diy-kit3.jpg?v=1630143938&width=720);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+}
+.four{
+    background-image: url(https://cpimg.tistatic.com/07772986/b/4/Glass-Mosaic-Handicraft-Decorated-Table-Lamp.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+}
+.five{
+    background-image: url(https://i.pinimg.com/originals/ea/c2/6b/eac26b543a698629b4bb0e8d43f367f0.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+}
